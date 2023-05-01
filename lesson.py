@@ -15,9 +15,8 @@ st.warning("Here is a warning")
 exp=ZeroDivisionError("Trying to divide by Zero")
 st.exception(exp)
 
-
-st.write("Writing a series of text using st.write")
-st.write("writing a range of numbers using st.write range")
+st.write("Writing a series of text")
+st.write("writing a range of numbers")
 st.write(range(10)
 
          
