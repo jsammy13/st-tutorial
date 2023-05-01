@@ -30,5 +30,19 @@ else:
   except:
     st.text("Enter some value in height in ft")
  
+if(st.button ('Calculate BMI')):
+  st.text("Your BMI Index is {}.".format(bmi))
+  
+  if(bmi <16):
+    st error("You are extremely Underweight")
+  elif (bmi >= 16 and bmi <18.5):
+    st.warning("You are underweight")
+  elif (bmi >=18.5 and bmi <25):
+    st.success("Healthy")
+  elif (bmi >=25 and bmi <=30):
+    st.warning("Overweight")
+  elif (bmi >=30):
+    st.error("Extremely Overweight")
+  
 
 
