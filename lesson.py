@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 st.title("Hello World this is Jo's first app")
 
@@ -21,8 +20,6 @@ st.write("Writing a series of text using st.write")
 st.write("writing a range of numbers using st.write range")
 st.write(range(10)
 
-img=Image.open("streamlit.png")
-st.image(img, width=200)
          
 
          
