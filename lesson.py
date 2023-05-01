@@ -40,7 +40,7 @@ if(st.button('Submit')):
          st.success(result)
 
          
-level = st.slider("Select the level", 1, 5)
+level = st.slider("Select the level", 1, 100)
 st.text('Selected: {}'.format(level))
 
 
