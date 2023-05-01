@@ -17,7 +17,7 @@ st.exception(exp)
 
 st.write("Writing a series of text")
 st.write("writing a range of numbers")
-st.write(range(10)
+st.write(range(10))
 
          
 
