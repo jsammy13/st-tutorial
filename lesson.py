@@ -6,7 +6,7 @@ st.subheader("Building the first app on the Streamlit platform")
 
 st.text(" Hi everyone, this is just a testing of the new platform to see what it can do")
 
-st.markdown("### This is a. markdown  section of the page")
+st.markdown("### This is a markdown  section of the page")
 
 st.success("Success command")
 st.info("Here is some information")
