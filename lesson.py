@@ -30,6 +30,15 @@ elif (status =='Female'):
 else:
          st.warning("no need to know")
 
+st.button("Click me for no action")
+if(st.button("Click Here")):
+         st.text("This is the response text from the click")
+
+name =st.text_input("Enter Your Name ", "John Smith Jones....")
+if(st.button('Submit')):
+         result = name.title()
+         st.success(result)
+
 
 
 
