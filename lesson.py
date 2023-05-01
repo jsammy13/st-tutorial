@@ -22,11 +22,14 @@ st.write(range(10))
 if st.checkbox("Show/Hide"):
          st.text("Showing the widget")
    
-status = st.radio("Select Gender: ", ('Male', 'Female'))
+status = st.radio("Select Gender: ", ('Male', 'Female','Others'))
 if (status =='Male'):
          st.success("Male")
-else:
+elif (status =='Female'):
          st.success("Female")
+else:
+         st.warning("Others")
+
 
 
 
